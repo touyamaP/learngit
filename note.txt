@@ -1,0 +1,5 @@
+git config --global user.name 'TouyamaP'
+git config --global user.email 'touyamaprpr@hotmail.com'
+
+
+git init #在某个目录下创建git库
