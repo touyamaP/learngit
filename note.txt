@@ -6,4 +6,7 @@ git init #在某个目录下创建git库
 git add #在库中添加一个文件
 git commit #向库提交这些文件的改动，可以add多个文件一并提交
 git diff note.txt #查看某个文件的历史不同
+git status #查看当前库的状态，用来确认改动是否提交了
 git log #查看历史改动记录，还可加--pretty=oneline参数，用来查看commit id
+git reset --hard commit_id #用于回退版本，commit_id可以用git log查看需要回退到的版本号
+git reflog #此命令用于查看命令历史，以方便在对回退版本不满意时回到未来的版本
