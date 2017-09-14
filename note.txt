@@ -10,3 +10,5 @@ git status #查看当前库的状态，用来确认改动是否提交了
 git log #查看历史改动记录，还可加--pretty=oneline参数，用来查看commit id
 git reset --hard commit_id #用于回退版本，commit_id可以用git log查看需要回退到的版本号
 git reflog #此命令用于查看命令历史，以方便在对回退版本不满意时回到未来的版本
+ssh-keygen -t rsa -C 'touyamaprpr@hotmial.com' #在本地设置ssh加密用的公私密钥，用于和github远程仓库通信，按照提示操作
+
